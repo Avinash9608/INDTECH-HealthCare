@@ -27,11 +27,13 @@ import Glimpse from "./Components/Glimpse/Glimpse.jsx";
 import HealthcareAppDevelopment from "./Components/HealthCareAppDev/HealthCareAppDev.jsx";
 import LetDiscuss from "./Components/LetDiscuss/LetDiscuss.jsx";
 import HealthcareBenefits from "./Components/HealthCareBenifit/HealthCareBenifit.jsx";
+import FantasySportsApp from "../../INDTECH-Sports/src/Components/FantasySportApp/FantasySportApp.jsx";
 function App() {
   return (
     <Router>
       <Navbar />
       <HeroBanner />
+     
       <HealthcareAppDevelopment />
       <LetDiscuss />
       <HealthcareBenefits />
